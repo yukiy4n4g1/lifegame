@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Game</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        td {
+            border: solid 1px black;
+            width: 20px;
+            height: 20px;
+        }
+
+        .live {
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Life Game</h1>
+    <input type="number" id="heightText" value="32">
+    <input type="number" id="widthText" value="32">
+    <button id="createBtn">Create</button>
+    <br>
+    <button id="nextBtn">Next</button>
+    <button id="resetBtn">Reset</button>
+    <table class="lifegame"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
